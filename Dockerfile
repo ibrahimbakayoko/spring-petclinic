@@ -1,5 +1,5 @@
 # Utilisation de l'image de base OpenJDK 11
-FROM openjdk:17-jre-slim
+FROM openjdk:17-jre-buster
 
 # Répertoire de travail dans le conteneur
 WORKDIR /app
